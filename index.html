@@ -4,17 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Historical page with articles, maps and videos describing the 12 Greek Olympic Gods and their roles in Ancient Greece"
+    />
+    <meta
+      name="keywords"
+      content="Greece, History, Gods, Olympus, Ancient Greece, Religion, Zeus, Hades, Hera, Poseidon"
+    />
+    <meta name="author" content="Darrach Barneveld" />
     <title>Gods of Olympus</title>
     <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header id="header">
-      <a id="logo" href="./">
-        <h1>Greek Gods Galore</h1>
-      </a>
+      <a id="logo" href="./">Greek Gods Galore </a>
       <nav id="navigation">
         <ul id="nav-list">
-          <li class="nav-item"><a href="./">Home</a></li>
+          <li class="nav-item"><a href="#hero">Home</a></li>
           <li class="nav-item"><a href="#history">History</a></li>
           <li class="nav-item"><a href="#gods">Gods</a></li>
           <li class="nav-item"><a href="#contact">Contact</a></li>
@@ -24,11 +36,40 @@
 
     <main class="wrapper">
       <section id="hero">
+        <img
+          class="hero-background"
+          src="assets/images/hero-background-300.webp"
+          loading="lazy"
+          alt="Renaissance painting of the 12 Greek Olympic Gods"
+          srcset="
+            assets/images/hero-background-300.webp  300w,
+            assets/images/hero-background-400.webp  400w,
+            assets/images/hero-background-600.webp  600w,
+            assets/images/hero-background.webp     1028w
+          "
+          sizes="(max-width: 1024px) 35vw, (max-width: 1500px) 40vw, 600px"
+        />
         <div class="hero-gradient">
           <div class="container">
             <h1 class="hero-text">
               Unraveling the Ancient Myths of the 12 Mighty Greek Gods!
             </h1>
+
+            <!-- <div class="hero-image-container">
+              <img
+                class="hero-image"
+                src="assets/images/12olympians.webp"
+                alt="Renaissance
+              painting of the 12 Greek Olympic Gods"
+                loading="lazy"
+                srcset="
+                  assets/images/12olympians-300.webp  300w,
+                  assets/images/12olympians-400.webp  400w,
+                  assets/images/12olympians-600.webp  600w,
+                  assets/images/12olympians.webp     1028w
+                "
+              />
+            </div> -->
 
             <div class="hero-image"></div>
           </div>
@@ -36,92 +77,132 @@
       </section>
 
       <section id="history">
-        <div class="container" style="flex-direction: column">
-          <h2 class="section-heading">
-            What were the Olympian Gods and Goddesses?
-          </h2>
-          <div class="container">
-            <div class="box">
+        <h2 class="section-heading">
+          What were the Olympian Gods and Goddesses?
+        </h2>
+        <div class="container">
+          <div class="box">
+            <p class="section-text">
+              The 12 Greek gods of Olympus were a revered pantheon of deities in
+              Greek mythology, known for their divine powers and significant
+              roles in shaping the world. They were believed to reside on Mount
+              Olympus, the highest peak in Greece.
+            </p>
+
+            <blockquote class="quote">
               <p>
-                The 12 Greek gods of Olympus were a revered pantheon of deities
-                in Greek mythology, known for their divine powers and
-                significant roles in shaping the world. They were believed to
-                reside on Mount Olympus, the highest peak in Greece.
+                “Men create gods after their own image, not only with regard to
+                their form, but with regard to their mode of life.”
               </p>
+            </blockquote>
 
-              <aside class="quote">
-                <p>
-                  “Men create gods after their own image, not only with regard
-                  to their form, but with regard to their mode of life.”
-                </p>
-              </aside>
-
-              <p>
-                These Olympian gods were central figures in Greek mythology and
-                were revered for their power, wisdom, and influence over various
-                aspects of human life and the natural world.
-              </p>
-            </div>
-
-            <div class="box">
-              <iframe
-                class="video"
-                src="https://www.youtube.com/embed/Ri-AoKE42rw"
-                title="Greek Gods Explained In 12 Minutes"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </div>
+            <p class="section-text">
+              These Olympian gods were central figures in Greek mythology and
+              were revered for their power, wisdom, and influence over various
+              aspects of human life and the natural world.
+            </p>
           </div>
 
-          <h2 class="section-heading">Where did they Gods the Live!</h2>
-          <div class="container">
-            <div class="box">
-              <figure class="map-container">
-                <iframe
-                  id="map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195369.19088564586!2d22.188215558113953!3d40.08336113191982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135813ec20ecc251%3A0xe579def37a813f8c!2zzozOu8-FzrzPgM6_z4I!5e0!3m2!1sen!2sie!4v1682370272382!5m2!1sen!2sie"
-                  allowfullscreen=""
-                  loading="lazy"
-                ></iframe>
-                <figcaption>Mount Olympus in Greece</figcaption>
-              </figure>
-            </div>
-            <div class="box">
-              <p>
-                The twelve Greek gods were believed to have lived on Mount
-                Olympus, which is the highest mountain in Greece. According to
-                Greek mythology, Zeus, the king of the gods, resided on the peak
-                of the mountain, while the other gods lived on different parts
-                of the mountain.
-              </p>
-              <p>
-                The top of Mount Olympus was thought to be the most sacred place
-                in Greece and was only accessible to the gods and certain
-                mortals who were deemed worthy of visiting. The Greeks built
-                many temples and shrines on the slopes of the mountain to honor
-                the gods, and the site remains an important cultural and
-                religious landmark in Greece today.
-              </p>
-            </div>
+          <div class="box">
+            <iframe
+              srcdoc="
+                <style>
+                    body, .full {
+                        width: 100%;
+                        height: 100%;
+                        margin: 0;
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        object-fit: cover;
+                    }
+                </style>
+                <a
+                    href='https://www.youtube.com/embed/Ri-AoKE42rw?autoplay=1'
+                    class='full'
+                >
+                    <img 
+                        src='https://vumbnail.com/Ri-AoKE42rw.jpg'
+                        class='full'
+                        loading='lazy'
+                    />
+                    <svg
+                        version='1.1'
+                        viewBox='0 0 68 48'
+                        width='68px'
+                        style='position: relative;'
+                    >
+                        <path d='M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z' fill='#f00'></path>
+                        <path d='M 45,24 27,14 27,34' fill='#fff'></path>
+                    </svg>
+                </a>
+            "
+              style="max-width: 640px; width: 100%; aspect-ratio: 16/9"
+              class="video"
+              title="Greek Gods Explained In 12 Minutes"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        <h2 class="section-heading">Where did the Gods the Live!</h2>
+        <div class="container">
+          <div class="box">
+            <figure class="map-container">
+              <iframe
+                id="map"
+                title="Google maps location of Mount Olympus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195369.19088564586!2d22.188215558113953!3d40.08336113191982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135813ec20ecc251%3A0xe579def37a813f8c!2zzozOu8-FzrzPgM6_z4I!5e0!3m2!1sen!2sie!4v1682370272382!5m2!1sen!2sie"
+                allowfullscreen=""
+                referrerpolicy="no-referrer-when-downgrade"
+                loading="lazy"
+              ></iframe>
+              <figcaption>Mount Olympus in Greece</figcaption>
+            </figure>
+          </div>
+          <div class="box">
+            <p class="section-text">
+              The twelve Greek gods were believed to have lived on Mount
+              Olympus, which is the highest mountain in Greece. According to
+              Greek mythology, Zeus, the king of the gods, resided on the peak
+              of the mountain, while the other gods lived on different parts of
+              the mountain.
+            </p>
+            <p class="section-text">
+              The top of Mount Olympus was thought to be the most sacred place
+              in Greece and was only accessible to the gods and certain mortals
+              who were deemed worthy of visiting. The Greeks built many temples
+              and shrines on the slopes of the mountain to honor the gods, and
+              the site remains an important cultural and religious landmark in
+              Greece today.
+            </p>
           </div>
         </div>
       </section>
 
       <section id="gods">
-        <h2 class="section-heading">Meet the Gods!</h2>
+        <h2 class="section-heading">Who were the Greek Gods!</h2>
         <div class="container">
-          <div class="gods-container">
+          <div class="gods-container" style="max-width: 1400px">
             <a href="#aphrodite" class="god-card">
               <div class="god-image-container">
                 <div class="god-overlay">
-                  <h6>Click to learn more!</h6>
+                  <p>Click to learn more!</p>
                 </div>
                 <img
+                  srcset="
+                    assets/images/gods/aphrodite-300.webp  300w,
+                    assets/images/gods/aphrodite-400.webp  400w,
+                    assets/images/gods/aphrodite-600.webp  600w,
+                    assets/images/gods/aphrodite.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/aphrodite.jpg"
+                  src="assets/images/gods/aphrodite-300.webp"
                   alt="picture of the god Aphrodite"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Aphrodite</h3>
@@ -129,10 +210,21 @@
 
             <a href="#apollo" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/apollo-300.webp  300w,
+                    assets/images/gods/apollo-400.webp  400w,
+                    assets/images/gods/apollo-600.webp  600w,
+                    assets/images/gods/apollo.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/apollo.jpg"
+                  src="assets/images/gods/apollo-300.webp"
                   alt="picture of the god Apollo"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Apollo</h3>
@@ -140,10 +232,21 @@
 
             <a href="#ares" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/ares-300.webp  300w,
+                    assets/images/gods/ares-400.webp  400w,
+                    assets/images/gods/ares-600.webp  600w,
+                    assets/images/gods/ares.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/ares.jpg"
+                  src="assets/images/gods/ares-300.webp"
                   alt="picture of the god Ares"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Ares</h3>
@@ -151,10 +254,21 @@
 
             <a href="#artemis" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/artemis-300.webp  300w,
+                    assets/images/gods/artemis-400.webp  400w,
+                    assets/images/gods/artemis-600.webp  600w,
+                    assets/images/gods/artemis.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/artemis.jpg"
+                  src="assets/images/gods/artemis-300.webp"
                   alt="picture of the god artemis"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Artemis</h3>
@@ -162,10 +276,21 @@
 
             <a href="#athena" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/athena-300.webp  300w,
+                    assets/images/gods/athena-400.webp  400w,
+                    assets/images/gods/athena-600.webp  600w,
+                    assets/images/gods/athena.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/athena.jpg"
+                  src="assets/images/gods/athena-300.webp"
                   alt="picture of the god Athena"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Athena</h3>
@@ -173,9 +298,20 @@
 
             <a href="#dionysus" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
-                  src="assets/images/gods/dionysus.jpg"
+                  srcset="
+                    assets/images/gods/dionysus-300.webp  300w,
+                    assets/images/gods/dionysus-400.webp  400w,
+                    assets/images/gods/dionysus-600.webp  600w,
+                    assets/images/gods/dionysus.webp     1028w
+                  "
+                  loading="lazy"
+                  src="assets/images/gods/dionysus-300.webp"
                   alt="picture of the god Dionysus"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Dionysus</h3>
@@ -183,10 +319,21 @@
 
             <a href="#hades" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/hades-300.webp  300w,
+                    assets/images/gods/hades-400.webp  400w,
+                    assets/images/gods/hades-600.webp  600w,
+                    assets/images/gods/hades.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/hades.jpg"
+                  src="assets/images/gods/hades-300.webp"
                   alt="picture of the god Hades"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Hades</h3>
@@ -194,10 +341,21 @@
 
             <a href="#hephaestus" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/hephaestus-300.webp  300w,
+                    assets/images/gods/hephaestus-400.webp  400w,
+                    assets/images/gods/hephaestus-600.webp  600w,
+                    assets/images/gods/hephaestus.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/hephaestus.jpg"
+                  src="assets/images/gods/hephaestus-300.webp"
                   alt="picture of the god Hephaestus"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Hephaestus</h3>
@@ -205,10 +363,21 @@
 
             <a href="#hera" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/hera-300.webp  300w,
+                    assets/images/gods/hera-400.webp  400w,
+                    assets/images/gods/hera-600.webp  600w,
+                    assets/images/gods/hera.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/hera.jpg"
+                  src="assets/images/gods/hera-300.webp"
                   alt="picture of the god Hera"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Hera</h3>
@@ -216,21 +385,43 @@
 
             <a href="#hermes" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/hermes-300.webp  300w,
+                    assets/images/gods/hermes-400.webp  400w,
+                    assets/images/gods/hermes-600.webp  600w,
+                    assets/images/gods/hermes.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/hermes.jpg"
+                  src="assets/images/gods/hermes-300.webp"
                   alt="picture of the god Hermes"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Hermes</h3>
             </a>
 
-            <a href="#posedion" class="god-card">
+            <a href="#poseidon" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/poseidon-300.webp  300w,
+                    assets/images/gods/poseidon-400.webp  400w,
+                    assets/images/gods/poseidon-600.webp  600w,
+                    assets/images/gods/poseidon.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/poseidon.jpg"
+                  src="assets/images/gods/poseidon-300.webp"
                   alt="picture of the god Poseidon"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Poseidon</h3>
@@ -238,10 +429,21 @@
 
             <a href="#zeus" class="god-card">
               <div class="god-image-container">
+                <div class="god-overlay">
+                  <p>Click to learn more!</p>
+                </div>
                 <img
+                  srcset="
+                    assets/images/gods/zeus-300.webp  300w,
+                    assets/images/gods/zeus-400.webp  400w,
+                    assets/images/gods/zeus-600.webp  600w,
+                    assets/images/gods/zeus.webp     1028w
+                  "
+                  loading="lazy"
                   class="god-image"
-                  src="assets/images/gods/zeus.jpg"
+                  src="assets/images/gods/zeus-300.webp"
                   alt="picture of the god Zeus"
+                  sizes="(max-width: 1024px) 175px"
                 />
               </div>
               <h3>Zeus</h3>
@@ -354,10 +556,19 @@
             </div>
 
             <p class="god-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
-              sit accusantium id minus cupiditate? Enim molestias eveniet nihil
-              perspiciatis impedit? Voluptatibus placeat nesciunt sapiente
-              veniam nulla voluptas officia suscipit magnam.
+              Athena was the Greek goddess of wisdom, war, and crafts. She was
+              often depicted as a stern and powerful figure, carrying a shield
+              and spear and wearing a helmet. Athena was also associated with
+              strategy, tactics, and cunning, and was regarded as the patroness
+              of warriors and heroes. Despite her association with war, Athena
+              was also associated with civilization, education, and the arts,
+              particularly weaving and pottery. Her cult was particularly
+              popular among young women seeking to emulate her wisdom and
+              strength, and her festivals were marked by athletic competitions,
+              poetry readings, and other cultural events. Athena was widely
+              regarded as one of the most important and influential deities in
+              ancient Greek mythology, and her myths and legends continue to
+              inspire thinkers and artists to this day.
             </p>
           </div>
 
@@ -531,47 +742,8 @@
         </h2>
 
         <div class="container">
-          <div class="article-wrapper">
-            <h3>Get articles like these mailed to you!</h3>
-            <div class="article-container">
-              <article class="article">
-                <img class="article-image" src="assets/images/404.jpg" />
-                <h5>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                  eius temporibus neque, quia vel veritatis minima suscipit qui
-                  aperiam distinctio?
-                </p>
-              </article>
-              <article class="article">
-                <img class="article-image" src="assets/images/404.jpg" />
-                <h5>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                  eius temporibus neque, quia vel veritatis minima suscipit qui
-                  aperiam distinctio?
-                </p>
-              </article>
-              <article class="article">
-                <img class="article-image" src="assets/images/404.jpg" />
-                <h5>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                  eius temporibus neque, quia vel veritatis minima suscipit qui
-                  aperiam distinctio?
-                </p>
-              </article>
-            </div>
-          </div>
-
           <form id="form" action="success.html" method="get">
-            <h2 class="section-heading">Join our Mailing List</h2>
+            <h2 class="form-heading">Join our Mailing List</h2>
             <label for="fname">*First Name:</label>
             <input
               class="details-input"
@@ -599,11 +771,10 @@
               required
             />
 
-            <label
-              for="frequency"
-              style="border-bottom: 1px solid var(--secondary-color)"
-              >*Subscription</label
-            >
+            <h3 style="border-bottom: 1px solid var(--secondary-color)">
+              *Subscription
+            </h3>
+
             <div class="radio-container">
               <input
                 type="radio"
@@ -636,6 +807,71 @@
               <input type="reset" class="form-btn" value="Clear Form" />
             </div>
           </form>
+          <div class="article-wrapper">
+            <h3>Get articles like these mailed to you!</h3>
+            <div class="article-container">
+              <article class="article">
+                <img
+                  loading="lazy"
+                  class="article-image"
+                  src="assets/images/herakles.webp"
+                  alt="picture of herakles"
+                />
+                <h4>The Life of Hercules in Myth & Legend.</h4>
+                <p>
+                  Hercules is the Roman name for the Greek hero Herakles, the
+                  most popular figure from ancient Greek mythology. Hercules was
+                  the son of Zeus, king of the gods, and the mortal woman
+                  Alcmene.
+                </p>
+              </article>
+              <article class="article">
+                <img
+                  loading="lazy"
+                  class="article-image"
+                  src="assets/images/12olympians.webp"
+                  alt="Renaissance artwork of the 12 Olympians"
+                  srcset="
+                    assets/images/12olympians-300.webp  300w,
+                    assets/images/12olympians-400.webp  400w,
+                    assets/images/12olympians-600.webp  600w,
+                    assets/images/12olympians.webp     1028w
+                  "
+                  sizes="(max-width: 767px) 400px"
+                />
+                <h4>Whio was the strongest Greek God?</h4>
+                <p>
+                  There are many gods in Greek mythology that possess power,
+                  strength, and status. Ares is the Greek god of war, and Hades
+                  was the Greek god of the underworld. So who was the strongest
+                  Greek god, and why was he considered the strongest?
+                </p>
+              </article>
+              <article class="article">
+                <img
+                  loading="lazy"
+                  class="article-image"
+                  src="assets/images/hero-background.webp"
+                  alt="Picture ancient Greek ruins"
+                  srcset="
+                    assets/images/hero-background-300.webp  300w,
+                    assets/images/hero-background-400.webp  400w,
+                    assets/images/hero-background-600.webp  600w,
+                    assets/images/hero-background.webp     1028w
+                  "
+                  sizes="(max-width: 767px) 400px"
+                />
+                <h4>
+                  Amazing Greek ruins that bring the ancient world to life
+                </h4>
+                <p>
+                  The ancient Greek ruins are iconic symbols of the rich history
+                  and culture of ancient Greece, showcasing impressive
+                  architectural feats and artistic mastery.
+                </p>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
     </main>

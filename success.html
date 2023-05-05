@@ -4,14 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Success confirmation page for signing up to the Greek Gods Galore mailing list"
+    />
+    <meta
+      name="keywords"
+      content="Greece, History, Gods, Olympus, Ancient Greece, Religion, Zeus, Hades, Hera, Poseidon"
+    />
+    <meta name="author" content="Darrach Barneveld" />
     <link href="styles.css" rel="stylesheet" />
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
     <title>Success</title>
   </head>
   <body>
     <header id="header">
-      <a id="logo" href="./">
-        <h1>Greek Gods Galore</h1>
-      </a>
+      <a id="logo" href="./"> Greek Gods Galore </a>
       <nav id="navigation">
         <ul id="nav-list">
           <li class="nav-item"><a href="index.html">Home</a></li>
@@ -38,7 +52,19 @@
           </div>
 
           <div class="box">
-            <img class="page-image" src="./assets/images/404.jpg" />
+            <img
+              srcset="
+                assets/images/gods/zeus-300.webp  300w,
+                assets/images/gods/zeus-400.webp  400w,
+                assets/images/gods/zeus-600.webp  600w,
+                assets/images/gods/zeus.webp     1028w
+              "
+              loading="lazy"
+              class="page-image"
+              src="./assets/images/gods/zeus.webp"
+              alt="picture of zeus"
+              sizes="(max-width: 1024px) 600px, (max-width: 1500px) 600px"
+            />
           </div>
         </div>
       </section>

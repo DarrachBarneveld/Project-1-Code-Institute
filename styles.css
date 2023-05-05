@@ -2,7 +2,7 @@
 
 :root {
   --primary-font: "Quattrocento", serif;
-  --primary-color: #e3dabd;
+  --primary-color: #f2e9cc;
   --secondary-color: #1c1c1c;
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -35,14 +35,7 @@ section {
 
 .wrapper {
   font-family: "Lato", sans-serif;
-  /* background-color: var(--primary-color); */
-  background-image: linear-gradient(
-      to bottom,
-      rgba(225, 211, 176, 0.8),
-      rgba(225, 211, 176, 0.8)
-    ),
-    url("./assets/images/brick-background.jpg");
-
+  background-color: var(--primary-color);
   letter-spacing: 2px;
 }
 
@@ -51,7 +44,6 @@ section {
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  margin-block: 3rem;
   gap: 2rem;
   width: 100%;
   max-width: 1600px;
@@ -59,9 +51,9 @@ section {
 
 .container-grid {
   display: grid;
-  padding: 1rem;
+  padding: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   height: 100%;
   max-width: 1600px;
@@ -84,11 +76,20 @@ section {
   font-size: 2.2rem;
   width: fit-content;
   font-family: var(--primary-font);
+  margin: 3rem 0.5rem;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.section-text {
+  font-size: medium;
 }
 
 /* HEADER */
 
 #header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   background-color: var(--secondary-color);
@@ -100,6 +101,10 @@ section {
   font-size: large;
 }
 
+#logo {
+  font-size: xx-large;
+}
+
 #nav-list {
   display: flex;
   list-style: none;
@@ -108,6 +113,10 @@ section {
 
 .nav-item a {
   font-weight: bold;
+  font-size: larger;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 0.25rem;
 }
 
 .nav-item a:hover {
@@ -117,23 +126,29 @@ section {
 /* HERO SECTION */
 
 #hero {
-  background: url("./assets/images/hero-background.jpg") no-repeat center center;
-  background-size: cover;
   height: 600px;
   position: relative;
   font-family: var(--primary-font);
+}
+
+.hero-background {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .hero-gradient {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 2rem;
+  z-index: 2;
 }
 
 .hero-text {
@@ -145,7 +160,7 @@ section {
 .hero-image {
   border-radius: 25px;
   flex: 1;
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   border: 2px solid gold;
   background-size: 100%;
   animation: pan-image 30s linear infinite;
@@ -153,7 +168,11 @@ section {
   background: url("./assets/images/12olympians.webp");
 }
 
-/* DESCRIPTION */
+/* HISTORY */
+
+#history {
+  scroll-margin-top: 4rem;
+}
 
 .quote {
   font-weight: bolder;
@@ -165,15 +184,18 @@ section {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 10px;
+  border: none;
 }
 
 .map-container {
   width: 100%;
+  max-width: 500px;
 }
 
 #map {
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   width: 100%;
+  align-self: center;
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
 }
@@ -192,6 +214,44 @@ section {
 
 #gods {
   flex-direction: column;
+  scroll-margin-top: 4rem;
+}
+
+#aphrodite {
+  scroll-margin-top: 4rem;
+}
+#apollo {
+  scroll-margin-top: 4rem;
+}
+#ares {
+  scroll-margin-top: 4rem;
+}
+#artemis {
+  scroll-margin-top: 4rem;
+}
+#athena {
+  scroll-margin-top: 4rem;
+}
+#dionysus {
+  scroll-margin-top: 4rem;
+}
+#hades {
+  scroll-margin-top: 4rem;
+}
+#hephaestus {
+  scroll-margin-top: 4rem;
+}
+#hera {
+  scroll-margin-top: 4rem;
+}
+#hermes {
+  scroll-margin-top: 4rem;
+}
+#posedion {
+  scroll-margin-top: 4rem;
+}
+#zeus {
+  scroll-margin-top: 4rem;
 }
 
 .gods-container {
@@ -200,6 +260,7 @@ section {
   flex-wrap: wrap;
   gap: 1rem;
   font-family: var(--primary-font);
+  scroll-margin-top: 4rem;
 }
 
 .god-card {
@@ -213,30 +274,42 @@ section {
   background: rgb(200, 200, 200);
   overflow: hidden;
   position: relative;
-  width: 200px;
+  width: 175px;
+  transition: all 300ms;
 }
 
 .god-card:hover {
-  /* transform: scale(1.02); */
-  transition: all 300ms;
+  transform: scale(1.02);
   cursor: pointer;
+  transition: all 300ms;
+}
+
+.god-card:focus {
+  transform: scale(1.02);
+  transition: all 300ms;
 }
 
 .god-overlay {
+  display: flex;
   transition: all 300ms;
-  display: none;
+  opacity: 0;
+  text-align: center;
   width: 100%;
   height: 100%;
   color: white;
   align-items: center;
   justify-content: center;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
 
 .god-card:hover .god-overlay {
-  display: flex;
+  opacity: 1;
+}
+
+.god-card:focus .god-overlay {
+  opacity: 1;
 }
 
 .god-image-container {
@@ -287,7 +360,7 @@ section {
 }
 
 .god-header h4 {
-  font-size: x-large;
+  font-size: large;
   margin-top: 10px;
   border-bottom: 2px solid darkgrey;
 }
@@ -295,12 +368,10 @@ section {
 .god-header-container i {
   font-size: 40px;
   margin-left: 1rem;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
 }
 
 .god-description {
-  font-size: large;
+  font-size: medium;
   font-weight: 300;
   letter-spacing: 1px;
   text-align: left;
@@ -342,6 +413,7 @@ section {
   background-size: cover;
   min-height: 100vh;
   position: relative;
+  scroll-margin-top: 4rem;
 }
 
 .article-wrapper {
@@ -351,9 +423,12 @@ section {
   gap: 1rem;
 }
 
+.article-wrapper h3 {
+  font-size: x-large;
+}
 .article-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
@@ -362,11 +437,14 @@ section {
   border-radius: 5px;
   overflow: hidden;
   background-color: white;
+  width: 250px;
+  border: 1px solid var(--secondary-color);
 }
 
-.article h5 {
-  margin: 0.5rem;
+.article h4 {
+  margin: 0 0.5rem 0.5rem 0.5rem;
   font-size: medium;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .article p {
@@ -376,7 +454,9 @@ section {
 
 .article-image {
   width: 100%;
+  aspect-ratio: 1/1;
   border-bottom: 1px solid var(--secondary-color);
+  object-fit: cover;
 }
 
 #form {
@@ -384,13 +464,22 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #f1dfd1;
-  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
-  padding: 2rem;
+  background-color: #dac6b7;
+  background-image: linear-gradient(315deg, #f1dfd1 0%, #dac6b7 74%);
+  padding: 1rem;
   border-radius: 10px;
   box-shadow: var(--box-shadow);
+  border: 1px solid var(--secondary-color);
   gap: 1rem;
   font-size: larger;
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  font-family: var(--primary-font);
+  margin: 1rem 0.5rem;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .details-input {
@@ -400,14 +489,6 @@ section {
   border-radius: 10px;
   color: var(--secondary-color);
   font-size: large;
-}
-
-.text-input {
-  font-size: large;
-  width: 100%;
-  border: 2px solid var(--primary-color);
-  border-radius: 10px;
-  color: var(--secondary-color);
 }
 
 .radio-container {
@@ -425,7 +506,7 @@ section {
 
 .form-btn {
   background-color: var(--secondary-color);
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 1rem;
   border: none;
   color: floralwhite;
@@ -436,11 +517,17 @@ section {
 
 .form-btn:hover {
   cursor: pointer;
-  background-color: var(--primary-color);
+  background-color: white;
   color: var(--secondary-color);
   border-color: var(--secondary-color);
   transform: scale(0.95);
   transition: all 150ms;
+}
+
+.form-btn:focus {
+  background-color: white;
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 /* SUCCESS */
@@ -449,26 +536,29 @@ section {
   min-height: 100vh;
 }
 
+#error {
+  min-height: 80vh;
+}
+
 .page-image {
   width: 100%;
+  border-radius: 10px;
+  max-width: 400px;
 }
 
 .page-header {
   font-size: 3rem;
-  align-self: flex-start;
+  line-height: 3rem;
 }
 
 .page-sub-header {
+  font-size: xx-large;
 }
 
 .page-text {
   font-weight: 300;
 }
 /* 404 */
-
-#error {
-  min-height: 100vh;
-}
 
 /* ANIMATIONS */
 
@@ -531,9 +621,6 @@ section {
 /* MEDIA_QUERIES */
 
 @media (max-width: 1200px) {
-  .article-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media (max-width: 1024px) {
@@ -543,10 +630,16 @@ section {
 
   .container {
     flex-direction: column;
+    height: 100%;
   }
 
-  .article {
-    width: 100%;
+  .hero-text {
+    flex: 0;
+    font-size: 3rem;
+  }
+
+  .container-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -555,13 +648,15 @@ section {
     padding: 1rem;
   }
 
-  .article-container {
-    grid-template-columns: repeat(1, 1fr);
+  .article {
+    width: 100%;
+    max-width: 400px;
   }
 
   .container-grid {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
   }
 
   #header {
@@ -570,14 +665,19 @@ section {
     font-size: medium;
     padding: 1rem 0.25rem;
   }
-
-  .hero-text {
-    font-size: xx-large;
-  }
 }
 
 @media (max-width: 480px) {
   .god-card {
     width: 100%;
+  }
+
+  .hero-text {
+    font-size: 2.2rem;
+  }
+
+  .hero-image {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
