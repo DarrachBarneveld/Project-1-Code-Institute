@@ -128,7 +128,7 @@ Secondary Colours - #1c1c1c / #fffaf0
 
 All colours were checker using [Accessible Webs Contrast Checker](https://accessibleweb.com/color-contrast-checker/). This ensured the page was compliant to WCAG AAA standards.
 
-![Colour scheme](docs/colour-scheme.webp)
+![Colour scheme](documentation/colour-scheme.webp)
 
 ### Fonts
 
@@ -269,11 +269,11 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 #### Desktop & Larger Screens
 
-![Logo and navbar](docs/features/logo-nav.webp)
+![Logo and navbar](documentation/screens/header-desktop.webp)
 
 #### Tablet, Mobile and Smaller Screens
 
-![Logo and navbar](docs/features/logo-nav-responsive.webp)
+![Logo and navbar](documentation/screens/header-mobile.webp)
 
 ### Hero Section
 
@@ -281,9 +281,19 @@ There was also two futher supplementary sections to provide a more well rounded 
 - Large, descriptive and engaging headline immediately intrigue user curiosity and inform them of the sites content.
 - Animated image of a renaissance painting of the 12 Greek Gods. Draws the attention through motion.
 
-![Hero Section](docs/features/hero-section.webp)
+#### Desktop & Larger Screens
+
+![Hero Section](documentation/screens/hero-desktop.webp)
+
+#### Tablet, Mobile and Smaller Screens
+
+![Hero Section](documentation/screens/hero-mobile.webp)
 
 ### History Section
+
+#### Desktop & Larger Screens
+
+![History Section](documentation/screens/history-desktop.webp)
 
 #### Video Area
 
@@ -291,10 +301,18 @@ There was also two futher supplementary sections to provide a more well rounded 
 - Quote from Aristotle
 - Embedded youtube video to give an indepth analysis of the gods
 
+#### Tablet, Mobile and Smaller Screens
+
+![History Section](documentation/screens/history-desktop-1.webp)
+
 #### Map Area
 
 - Short paragraph on where the gods lived
 - Embedded Google maps on location of Mouth Olympus
+
+#### Tablet, Mobile and Smaller Screens
+
+![History Section](documentation/screens/history-desktop-2.webp)
 
 ### Gods Section
 
@@ -303,10 +321,26 @@ There was also two futher supplementary sections to provide a more well rounded 
 - 12 cards with an artist rendition of the 12 greek gods
 - Links to more information on each god
 
+#### Desktop & Larger Screens
+
+![Gods Section](documentation/screens/gods-desktop.webp)
+
+#### Tablet, Mobile and Smaller Screens
+
+![Gods Section](documentation/screens/gods-mobile.webp)
+
 #### Description Area
 
 - 12 cards with the name of each god and their role
 - Short description about each god
+
+#### Desktop & Larger Screens
+
+![Gods Description Section](documentation/screens/gods-description-desktop.webp)
+
+#### Tablet, Mobile and Smaller Screens
+
+![Gods Description Section](documentation/screens/gods-description-mobile.webp)
 
 ### Contact Section
 
@@ -314,6 +348,14 @@ There was also two futher supplementary sections to provide a more well rounded 
 - Different rates based on frequency of mail
 - Showcasing 3 articles that represent the content delievered.
 - Each article links to external sites
+
+#### Desktop & Larger Screens
+
+![Contact Section](documentation/screens/contact-desktop.webp)
+
+#### Tablet, Mobile and Smaller Screens
+
+![Contact Section](documentation/screens/contact-mobile.webp)
 
 ### Footer
 
@@ -331,7 +373,13 @@ There was also two futher supplementary sections to provide a more well rounded 
 - Describes to the user that the site is a mock site and has a navigation back to home page button.
 - Consistant header and footer from main index page.
 
-![Footer Section](docs/features/thank-you-page.webp)
+#### Desktop & Larger Screens
+
+![Success Section](documentation/screens/success-desktop.webp)
+
+#### Tablet, Mobile and Smaller Screens
+
+![Success Section](documentation/screens/success-mobile.webp)
 
 ### 404 Page
 
@@ -339,7 +387,13 @@ There was also two futher supplementary sections to provide a more well rounded 
 - Has a navigation button back to home page and tell the user that the page does not exist.
 - Consistant header and footer from main index page.
 
-![Footer Section](docs/features/404-page.webp)
+#### Desktop & Larger Screens
+
+![404 Section](documentation/screens/404-desktop.webp)
+
+#### Tablet, Mobile and Smaller Screens
+
+![404 Section](documentation/screens/404-mobile.webp)
 
 ### Features Left to Implement
 
@@ -434,60 +488,60 @@ The website was tested on the following browsers:
 
 - I want to test the site's usability and navigation, to ensure that users can easily find the information they need and navigate between pages.
 
-  > User can navigate to any section by using the sticky header navigation.
-  > User can navigate to any god description by clicking on the god card.
+  1. User can navigate to any section by using the sticky header navigation.
+  2. User can navigate to any god description by clicking on the god card.
 
 - I want to test the site's performance and loading speed, to ensure that it can handle a high volume of traffic and provide a smooth user experience.
 
-  > Site passing all performance testing metrics.
+  1. Site passing all performance testing metrics.
 
 - I want to test the site's accessibility and compatibility, to ensure that it can be accessed on different devices and browsers, and that users with disabilities or special needs can use it effectively.
 
-  > Site is fully responsive across all platforms.
-  > Site is usable across all different browsers.
-  > Site passes all testing for accessibility.
+  1. Site is fully responsive across all platforms.
+  2. Site is usable across all different browsers.
+  3. Site passes all testing for accessibility.
 
 - I want users to be able to contact me directly and sign up to subscription services.
 
-  > Contact email for works as well as direct linking to social platforms.
-  > Subscrition form works and shows users a success page.
+  1. Contact email for works as well as direct linking to social platforms.
+  2. Subscrition form works and shows users a success page.
 
 - I want to make sure users are directed back to the index page of the website and not rely on the browser navigation to return to home page.
-  > 404 page instructs the user the page doesn't exist and directs them back to the home page with a navigation button on the both header and below 404 text.
+  1. 404 page instructs the user the page doesn't exist and directs them back to the home page with a navigation button on the both header and below 404 text.
 
 #### New Users:
 
 - I want to immediately understand the content of the site so I can make a quick decision as to whether or not to continue.
 
-  > Hero text clearly states the purpose of the website
-  > First heading reinforces the context of the website.
+  1. Hero text clearly states the purpose of the website
+  2. First heading reinforces the context of the website.
 
 - I want to be able to quickly navigate to desired areas of the website and find the information displayed clearly and concisely.
 
-  > Sticky navigation shows the key areas of the website.
-  > Clear and consise paragraphs outline the important points of each god. The who, what and where are all covered.
+  1. Sticky navigation shows the key areas of the website.
+  2. Clear and consise paragraphs outline the important points of each god. The who, what and where are all covered.
 
 - I want to have multiple media sources displayed on the website I can get a comprehensive outlook on the information I require
 
-  > Youtube video media embedding an informative video
-  > Links to articles describing information in more detail
-  > High quality images and artist renditions of the mythical gods
-  > Map embedded to show location of the source material
+  1. Youtube video media embedding an informative video
+  2. Links to articles describing information in more detail
+  3. High quality images and artist renditions of the mythical gods
+  4. Map embedded to show location of the source material
 
 #### Existing Users:
 
 - I want to be able to sign up to a mailing list the website so as to get alerts about future content.
 
-  > Mailing list form at the end of the page allows users to input their details.
-  > Choice of subscription gives the user control of the frequency of articles delivered.
-  > Success page is routed to upon completion of the form giving user feedback.
+  1. Mailing list form at the end of the page allows users to input their details.
+  2. Choice of subscription gives the user control of the frequency of articles delivered.
+  3. Success page is routed to upon completion of the form giving user feedback.
 
 - I want to locate contact details of the websites owner so as to website so I can request assistance.
 
-  > Contact details located on the footer of the page show both the email, address, name and socials of the owner.
+  1. Contact details located on the footer of the page show both the email, address, name and socials of the owner.
 
-  - I want to locate contact details of the websites owner so as to website so I can request assistance.
-    > Contact details located on the footer of the page show both the email, address, name and socials of the owner.
+- I want to locate contact details of the websites owner so as to website so I can request assistance.
+  1. Contact details located on the footer of the page show both the email, address, name and socials of the owner.
 
 [Back to Table of Contents](#table-of-contents)
 

@@ -537,7 +537,7 @@ section {
 }
 
 #error {
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .page-image {
