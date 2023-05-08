@@ -444,7 +444,7 @@ Google Lighthouse in Google's Chrome Developer Tools was used to test the perfor
 ### Index
 
 <details><summary>Desktop</summary>
-<img src="documentation/performance/index-mobile.webp">
+<img src="documentation/performance/index-desktop.webp">
 </details>
 <details><summary>Mobile</summary>
 <img src="documentation/performance/index-mobile.webp">
@@ -453,7 +453,7 @@ Google Lighthouse in Google's Chrome Developer Tools was used to test the perfor
 ### Success
 
 <details><summary>Desktop</summary>
-<img src="documentation/performance/success-mobile.webp">
+<img src="documentation/performance/success-desktop.webp">
 </details>
 <details><summary>Mobile</summary>
 <img src="documentation/performance/success-mobile.webp">
@@ -462,7 +462,7 @@ Google Lighthouse in Google's Chrome Developer Tools was used to test the perfor
 ### 404
 
 <details><summary>Desktop</summary>
-<img src="documentation/performance/404-mobile.webp">
+<img src="documentation/performance/404-desktop.webp">
 </details>
 <details><summary>Mobile</summary>
 <img src="documentation/performance/404-mobile.webp">
