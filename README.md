@@ -303,7 +303,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 #### Tablet, Mobile and Smaller Screens
 
-![History Section](documentation/screens/history-desktop-1.webp)
+![History Section](documentation/screens/history-mobile-1.webp)
 
 #### Map Area
 
@@ -312,7 +312,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 #### Tablet, Mobile and Smaller Screens
 
-![History Section](documentation/screens/history-desktop-2.webp)
+![History Section](documentation/screens/history-mobile-2.webp)
 
 ### Gods Section
 
