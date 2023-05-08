@@ -81,7 +81,7 @@ section {
 }
 
 .section-text {
-  font-size: medium;
+  font-size: large;
 }
 
 /* HEADER */
@@ -368,7 +368,7 @@ section {
 }
 
 .god-description {
-  font-size: medium;
+  font-size: large;
   font-weight: 300;
   letter-spacing: 1px;
   text-align: left;
@@ -699,7 +699,6 @@ a:focus {
   #header {
     flex-direction: column;
     text-align: center;
-    font-size: medium;
     padding: 1rem 0.25rem;
   }
 
@@ -711,6 +710,14 @@ a:focus {
 @media (max-width: 480px) {
   .god-card {
     width: 100%;
+  }
+
+  .section-text {
+    font-size: medium;
+  }
+
+  .god-description {
+    font-size: medium;
   }
 
   .hero-image {
