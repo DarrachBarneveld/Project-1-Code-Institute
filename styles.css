@@ -17,6 +17,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-family: "Lato", sans-serif;
 }
 
 a {
@@ -34,7 +35,6 @@ section {
 /* GENERAL UX */
 
 .wrapper {
-  font-family: "Lato", sans-serif;
   background-color: var(--primary-color);
   letter-spacing: 2px;
 }
@@ -377,36 +377,6 @@ section {
   text-align: left;
 }
 
-/* FOOTER */
-
-#footer {
-  display: flex;
-  padding: 2rem;
-  gap: 1rem;
-  background-color: var(--secondary-color);
-  color: floralwhite;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer-header {
-  font-family: var(--primary-font);
-  border-bottom: 1px solid floralwhite;
-}
-
-.footer-content ul {
-  list-style: none;
-  display: flex;
-  text-align: center;
-  gap: 1.5rem;
-  font-size: small;
-}
-
-.footer-content ul li {
-}
-
 /* CONTACT */
 
 #contact {
@@ -528,6 +498,76 @@ section {
   background-color: white;
   color: var(--secondary-color);
   border-color: var(--secondary-color);
+}
+
+/* FOOTER */
+
+#footer {
+  display: flex;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--secondary-color);
+  color: floralwhite;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-inline: 4rem;
+}
+
+.footer-header {
+  font-size: xx-large;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials i {
+  font-size: 2rem;
+}
+
+.socials a:hover,
+a:focus {
+  transform: scale(1.1);
+  transition: all 150ms;
+  filter: brightness(1.4);
+  cursor: pointer;
+}
+
+.socials a:nth-child(1) {
+  color: orange;
+}
+.socials a:nth-child(2) {
+  color: blue;
+}
+.socials a:nth-child(3) {
+  color: lightskyblue;
+}
+.socials a:nth-child(4) {
+  color: palevioletred;
+}
+
+.contact-details {
+  line-height: 1.6rem;
+  font-size: larger;
+}
+
+.contact-details a {
+  text-decoration: underline;
+}
+
+.contact-details a:hover,
+a:focus {
+  text-decoration: underline;
+  color: blue;
 }
 
 /* SUCCESS */
@@ -664,6 +704,10 @@ section {
     text-align: center;
     font-size: medium;
     padding: 1rem 0.25rem;
+  }
+
+  #footer {
+    flex-direction: column;
   }
 }
 

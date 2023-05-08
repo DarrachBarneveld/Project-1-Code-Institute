@@ -27,8 +27,8 @@ Greek Gods Galore is an informative online resource that delves into the mytholo
    1. [Languages](#languages)
    2. [Frameworks & Tools](#frameworks--tools)
 5. [Features](#features)
-   1. [Existing Features](#existing-feature)
-   2. [Features Left to Implement](#features-left-to-implement)
+   1. [Current Features](#current-features)
+   2. [Potential Features](#potential-features)
 6. [Testing](#testing)
    1. [HTML Validation](#HTML-validation)
    2. [CSS Validation](#CSS-validation)
@@ -261,6 +261,8 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 ## Features
 
+### Current Features
+
 ### Logo and Navigation Bar
 
 - Main header for all pages.
@@ -364,7 +366,13 @@ There was also two futher supplementary sections to provide a more well rounded 
 - Social icons for the webpage
 - Email contact form
 
-![Footer Section](docs/features/footer-section.webp)
+#### Desktop & Larger Screens
+
+![Contact Section](documentation/screens/footer-desktop.webp)
+
+#### Tablet, Mobile and Smaller Screens
+
+![Contact Section](documentation/screens/footer-mobile.webp)
 
 ### Success Page
 
@@ -395,7 +403,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 ![404 Section](documentation/screens/404-mobile.webp)
 
-### Features Left to Implement
+### Potential Features
 
 The following features could be implemented in the future but are beyond the scope of this project.
 
