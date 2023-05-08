@@ -417,25 +417,25 @@ The following features could be implemented in the future but are beyond the sco
 
 ### HTML Validation
 
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors and no warnings shown.
+Validator W3 was used to validate the HTML of the website. All pages pass with no errors and no warnings shown.
 
-- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmat-shepherd.github.io%2Fci-pp1-nurture-seo%2F)
-- thank-you.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmat-shepherd.github.io%2Fci-pp1-nurture-seo%2Fthank-you.html)
-- 404.html results [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmat-shepherd.github.io%2Fci-pp1-nurture-seo%2F404.html)
+- index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrachbarneveld.github.io%2FProject-1-Code-Institute%2F)
+- success.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrachbarneveld.github.io%2FProject-1-Code-Institute%2Fsuccess)
+- 404.html results [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdarrachbarneveld.github.io%2FProject-1-Code-Institute%2F404)
 
 ### CSS Validation
 
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 
-- styles.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmat-shepherd.github.io%2Fci-pp1-nurture-seo%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- styles.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdarrachbarneveld.github.io%2FProject-1-Code-Institute%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Accessibility
 
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
-- index.html [results](https://wave.webaim.org/report#/https://mat-shepherd.github.io/ci-pp1-nurture-seo/)
-- thank-you.html [results](https://wave.webaim.org/report#/https://mat-shepherd.github.io/ci-pp1-nurture-seo/thank-you.html)
-- 404.html results [results](https://wave.webaim.org/report#/https://mat-shepherd.github.io/ci-pp1-nurture-seo/404.html)
+- index.html [results](https://wave.webaim.org/report#/https://darrachbarneveld.github.io/Project-1-Code-Institute/)
+- thank-you.html [results](https://wave.webaim.org/report#/https://darrachbarneveld.github.io/Project-1-Code-Institute/success)
+- 404.html results [results](https://wave.webaim.org/report#/https://darrachbarneveld.github.io/Project-1-Code-Institute/404)
 
 ### Performance
 
@@ -443,29 +443,29 @@ Google Lighthouse in Google's Chrome Developer Tools was used to test the perfor
 
 ### Index
 
-<details><summary>Mobile</summary>
-<img src="docs/lighthouse/index-lighthouse-mobile.webp">
-</details>
 <details><summary>Desktop</summary>
-<img src="docs/lighthouse/index-lighthouse-desktop.webp">
+<img src="documentation/performance/index-mobile.webp">
+</details>
+<details><summary>Mobile</summary>
+<img src="documentation/performance/index-mobile.webp">
 </details>
 
-### Thank You
+### Success
 
-<details><summary>Mobile</summary>
-<img src="docs/lighthouse/thank-you-lighthouse-mobile.webp">
-</details>
 <details><summary>Desktop</summary>
-<img src="docs/lighthouse/thank-you-lighthouse-desktop.webp">
+<img src="documentation/performance/success-mobile.webp">
+</details>
+<details><summary>Mobile</summary>
+<img src="documentation/performance/success-mobile.webp">
 </details>
 
 ### 404
 
-<details><summary>Mobile</summary>
-<img src="docs/lighthouse/404-lighthouse-mobile.webp">
-</details>
 <details><summary>Desktop</summary>
-<img src="docs/lighthouse/404-lighthouse-desktop.webp">
+<img src="documentation/performance/404-mobile.webp">
+</details>
+<details><summary>Mobile</summary>
+<img src="documentation/performance/404-mobile.webp">
 </details>
 
 ### Device testing
