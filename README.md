@@ -434,7 +434,7 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
 - index.html [results](https://wave.webaim.org/report#/https://darrachbarneveld.github.io/Project-1-Code-Institute/)
-- thank-you.html [results](https://wave.webaim.org/report#/https://darrachbarneveld.github.io/Project-1-Code-Institute/success)
+- success.html [results](https://wave.webaim.org/report#/https://darrachbarneveld.github.io/Project-1-Code-Institute/success)
 - 404.html results [results](https://wave.webaim.org/report#/https://darrachbarneveld.github.io/Project-1-Code-Institute/404)
 
 ### Performance
@@ -550,6 +550,16 @@ The website was tested on the following browsers:
 
 - I want to locate contact details of the websites owner so as to website so I can request assistance.
   1. Contact details located on the footer of the page show both the email, address, name and socials of the owner.
+
+[Back to Table of Contents](#table-of-contents)
+
+## Bugs
+
+| **Bug**                                                                                                                                                       | **Fix**                                                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Due to the hero image animation using CSS background url the image was unable to be optimised. This lead to high load times and poor performance.             | Using CSS media queries the hero image was disabled on mobile devices leading to better performance and lighthouse scores.                                                                             |
+| Embedding youtube videos and lead to large delays in performance. Reduce unused JavaScript, Javascript execution times and serving static assest were issues. | Following the tutorial on [Vumbnail](https://vumbnail.com/examples/srcdoc-iframe-for-lighthouse) I was able to drastically reduce performance issues by following the instructional srcdoc html setup. |
+| Embedding Google Maps meant the certain errors were not able to be resolved. These were serving static assests with an efficient cashe policy.                | Unfortunately no reasonable solution was found and this is a common error when embedding google maps. Without use of custom Javascript code which is beyond the scope of this project.                 |
 
 [Back to Table of Contents](#table-of-contents)
 
