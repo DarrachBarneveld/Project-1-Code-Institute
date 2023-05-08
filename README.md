@@ -126,7 +126,7 @@ Primary Colours - #f2e9cc / #ffffff / #dac6b7
 
 Secondary Colours - #1c1c1c / #fffaf0
 
-All colours were checker using [Accessible Webs Contrast Checker](https://accessibleweb.com/color-contrast-checker/). This ensured the page was compliant to WCAG AAA standards.
+All colours were checked using [Accessible Webs Contrast Checker](https://accessibleweb.com/color-contrast-checker/). This ensured the page was compliant to WCAG AAA standards.
 
 ![Colour scheme](documentation/colour-scheme.webp)
 
@@ -138,7 +138,7 @@ The main text font used was Lato with a sans-serif fallback. The lightweight Lat
 
 ### Structure
 
-The structure of the page follows a basic an easy to follow flow. The design choice to remain on a single page meant the user could follow a journey as they scrolled through the page. The content was split into 5 distinct sections.
+The structure of the page follows a basic and easy to follow flow. The design choice to remain on a single page meant the user could follow a journey as they scrolled through the page. The content was split into 5 distinct sections.
 
 1. Header/Navigation
 2. Hero Section
@@ -147,7 +147,7 @@ The structure of the page follows a basic an easy to follow flow. The design cho
 5. Subscribe & More Info Section.
 6. Footer
 
-There was also two futher supplementary sections to provide a more well rounded experience. A 404 page was designed to route all traffic that visited a broken link back to the homepage and a success section for when the user filled out the subscription form.
+There were also two further supplementary sections to provide a more well rounded experience. A 404 page was designed to route all traffic that visited a broken link back to the homepage and a success section for when the user filled out the subscription form.
 
 #### Header Section
 
@@ -230,8 +230,6 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 [Back to Table of Contents](#table-of-contents)
 
-[Back to Table of Contents](#table-of-contents)
-
 ## Technologies Used
 
 ### Languages
@@ -256,6 +254,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 - [W3C Markup Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+- [Wave Accessibility Tool](https://wave.webaim.org/)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -266,7 +265,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 ### Logo and Navigation Bar
 
 - Main header for all pages.
-- Logo and navigation links which bring user to different page sections.
+- Logo and navigation links which bring users to different page sections.
 - Sticky header to make navigation easy throughout the user journey.
 
 #### Desktop & Larger Screens
@@ -280,8 +279,8 @@ There was also two futher supplementary sections to provide a more well rounded 
 ### Hero Section
 
 - Displays a large and high quality image as a background to set the tone of ancient greece.
-- Large, descriptive and engaging headline immediately intrigue user curiosity and inform them of the sites content.
-- Animated image of a renaissance painting of the 12 Greek Gods. Draws the attention through motion.
+- Large, descriptive and engaging headlines immediately intrigue user curiosity and inform them of the site's content.
+- Animated image of a renaissance painting of the 12 Greek Gods. Draws attention through motion.
 
 #### Desktop & Larger Screens
 
@@ -299,9 +298,9 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 #### Video Area
 
-- Short paragraph to describe who were the greek gods.
+- Short paragraph to describe who the Greek gods are.
 - Quote from Aristotle
-- Embedded youtube video to give an indepth analysis of the gods
+- Embedded youtube video to give an in depth analysis of the gods
 
 #### Tablet, Mobile and Smaller Screens
 
@@ -310,7 +309,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 #### Map Area
 
 - Short paragraph on where the gods lived
-- Embedded Google maps on location of Mouth Olympus
+- Embedded Google maps on location of Mount Olympus
 
 #### Tablet, Mobile and Smaller Screens
 
@@ -348,7 +347,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 - A subscription form that allows users to sign up to a mailing service.
 - Different rates based on frequency of mail
-- Showcasing 3 articles that represent the content delievered.
+- Showcasing 3 articles that represent the content delivered.
 - Each article links to external sites
 
 #### Desktop & Larger Screens
@@ -363,7 +362,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 - Main footer for all pages.
 - Logo and contact information
-- Social icons for the webpage
+- Social icons for the web page
 - Email contact form
 
 #### Desktop & Larger Screens
@@ -379,7 +378,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 - Upon submission of the mailing list subscription a user is brought to this page
 - Shows the user that their subscription was successful.
 - Describes to the user that the site is a mock site and has a navigation back to home page button.
-- Consistant header and footer from main index page.
+- Consistent header and footer from main index page.
 
 #### Desktop & Larger Screens
 
@@ -392,8 +391,8 @@ There was also two futher supplementary sections to provide a more well rounded 
 ### 404 Page
 
 - 404 page that shows when any non dedicated link is visited
-- Has a navigation button back to home page and tell the user that the page does not exist.
-- Consistant header and footer from main index page.
+- Has a navigation button back to the home page and tells the user that the page does not exist.
+- Consistent header and footer from main index page.
 
 #### Desktop & Larger Screens
 
@@ -407,7 +406,7 @@ There was also two futher supplementary sections to provide a more well rounded 
 
 The following features could be implemented in the future but are beyond the scope of this project.
 
-- User subscription and account creation features that allow users to create a personal profile, save their favorite articles or quizzes, receive personalized recommendations and updates.
+- User subscription and account creation features that allow users to create a personal profile, save their favourite articles or quizzes, receive personalised recommendations and updates.
 - Interactive quizzes or games related to Greek mythology, such as personality tests to determine which Greek god or goddess you are most like.
 - A forum or blog that hosts user-generated content, such as fan art, fan fiction, or reviews of books or movies inspired by Greek mythology, to foster a sense of community and engagement among users.
 
@@ -479,7 +478,7 @@ The website was tested on the following devices:
 
 #### Cloud
 
-- Tested using Google Chromes Developer Tools to simulate all devices
+- Tested using Google Chrome's Developer Tools to simulate all devices
 - IPhone 10 - XCode simulator.
 
 ### Browser compatibility
@@ -496,8 +495,8 @@ The website was tested on the following browsers:
 
 - I want to test the site's usability and navigation, to ensure that users can easily find the information they need and navigate between pages.
 
-  1. User can navigate to any section by using the sticky header navigation.
-  2. User can navigate to any god description by clicking on the god card.
+  1. Users can navigate to any section by using the sticky header navigation.
+  2. Users can navigate to any god description by clicking on the god card.
 
 - I want to test the site's performance and loading speed, to ensure that it can handle a high volume of traffic and provide a smooth user experience.
 
@@ -511,10 +510,10 @@ The website was tested on the following browsers:
 
 - I want users to be able to contact me directly and sign up to subscription services.
 
-  1. Contact email for works as well as direct linking to social platforms.
-  2. Subscrition form works and shows users a success page.
+  1. Working contact email as well as direct linking to social platforms.
+  2. Subscription form works and shows users a success page.
 
-- I want to make sure users are directed back to the index page of the website and not rely on the browser navigation to return to home page.
+- I want to make sure users are directed back to the index page of the website and not rely on the browser navigation to return to the home page.
   1. 404 page instructs the user the page doesn't exist and directs them back to the home page with a navigation button on the both header and below 404 text.
 
 #### New Users:
@@ -527,7 +526,7 @@ The website was tested on the following browsers:
 - I want to be able to quickly navigate to desired areas of the website and find the information displayed clearly and concisely.
 
   1. Sticky navigation shows the key areas of the website.
-  2. Clear and consise paragraphs outline the important points of each god. The who, what and where are all covered.
+  2. Clear and concise paragraphs outline the important points of each god. The who, what and where are all covered.
 
 - I want to have multiple media sources displayed on the website I can get a comprehensive outlook on the information I require
 
@@ -538,17 +537,17 @@ The website was tested on the following browsers:
 
 #### Existing Users:
 
-- I want to be able to sign up to a mailing list the website so as to get alerts about future content.
+- I want to be able to sign up to a mailing list on the website so as to get alerts about future content.
 
   1. Mailing list form at the end of the page allows users to input their details.
   2. Choice of subscription gives the user control of the frequency of articles delivered.
   3. Success page is routed to upon completion of the form giving user feedback.
 
-- I want to locate contact details of the websites owner so as to website so I can request assistance.
+- I want to locate the contact details of the website owner so I can request assistance.
 
   1. Contact details located on the footer of the page show both the email, address, name and socials of the owner.
 
-- I want to locate contact details of the websites owner so as to website so I can request assistance.
+- I want to locate the contact details of the website owner so I can request assistance.
   1. Contact details located on the footer of the page show both the email, address, name and socials of the owner.
 
 [Back to Table of Contents](#table-of-contents)
@@ -557,9 +556,9 @@ The website was tested on the following browsers:
 
 | **Bug**                                                                                                                                                       | **Fix**                                                                                                                                                                                                |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Due to the hero image animation using CSS background url the image was unable to be optimised. This lead to high load times and poor performance.             | Using CSS media queries the hero image was disabled on mobile devices leading to better performance and lighthouse scores.                                                                             |
-| Embedding youtube videos and lead to large delays in performance. Reduce unused JavaScript, Javascript execution times and serving static assest were issues. | Following the tutorial on [Vumbnail](https://vumbnail.com/examples/srcdoc-iframe-for-lighthouse) I was able to drastically reduce performance issues by following the instructional srcdoc html setup. |
-| Embedding Google Maps meant the certain errors were not able to be resolved. These were serving static assests with an efficient cashe policy.                | Unfortunately no reasonable solution was found and this is a common error when embedding google maps. Without use of custom Javascript code which is beyond the scope of this project.                 |
+| Due to the hero image animation using CSS background url the image was unable to be optimised. This leads to high load times and poor performance.            | Using CSS media queries the hero image was disabled on mobile devices leading to better performance and lighthouse scores.                                                                             |
+| Embedding youtube videos and lead to large delays in performance. Reduce unused JavaScript, Javascript execution times and serving static assets were issues. | Following the tutorial on [Vumbnail](https://vumbnail.com/examples/srcdoc-iframe-for-lighthouse) I was able to drastically reduce performance issues by following the instructional srcdoc html setup. |
+| Embedding Google Maps meant the certain errors were not able to be resolved. These were serving static assets with an efficient cache policy.                 | Unfortunately no reasonable solution was found and this is a common error when embedding google maps. Without use of custom Javascript code which is beyond the scope of this project.                 |
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -570,7 +569,7 @@ The website was deployed using GitHub Pages:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left-hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automatically you will see a ribbon on the top saying: Your site is live at https://darrachbarneveld.github.io/Project-1-Code-Institute/
+4. After the web page refreshes automatically you will see a ribbon on the top saying: Your site is live at https://darrachbarneveld.github.io/Project-1-Code-Institute/
 
 You can for fork the repository:
 
@@ -647,7 +646,7 @@ You can run this repository locally:
 
 I would like to make the following thanks to all that helped me on this project:
 
-- My mentor Adegbenga Adeye for your clear and consise instruction. Showing me tools, guidance and finding errors in my projects
+- My mentor Adegbenga Adeye for your clear and concise instruction. Showing me tools, guidance and finding errors in my projects
 - Alan Bushelland the April 2023 Student Cohort for their knowledge sharing, advice, and camaraderie during our weekly standup calls and in Slack
 - Fellow Students Alice Hillier, Emilia Dombek, Shane_Donlon, Tanguy L'Alexandre, Vitor Barbosa, Alan Yeates and Kurt McGoona for their constructive feedback
 
