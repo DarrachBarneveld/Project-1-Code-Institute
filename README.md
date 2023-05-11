@@ -250,6 +250,7 @@ There were also two further supplementary sections to provide a more well rounde
 - [Google Maps](https://www.google.com/maps)
 - [Youtube](https://youtube.com/)
 - [Photopea](https://www.photopea.com/)
+- [Chat-GPT](https://chat.openai.com/)
 - [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
 - [W3C Markup Validation Service](https://validator.w3.org/)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -554,11 +555,22 @@ The website was tested on the following browsers:
 
 ## Bugs
 
-| **Bug**                                                                                                                                                       | **Fix**                                                                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Due to the hero image animation using CSS background url the image was unable to be optimised. This leads to high load times and poor performance.            | Using CSS media queries the hero image was disabled on mobile devices leading to better performance and lighthouse scores.                                                                             |
-| Embedding youtube videos and lead to large delays in performance. Reduce unused JavaScript, Javascript execution times and serving static assets were issues. | Following the tutorial on [Vumbnail](https://vumbnail.com/examples/srcdoc-iframe-for-lighthouse) I was able to drastically reduce performance issues by following the instructional srcdoc html setup. |
-| Embedding Google Maps meant the certain errors were not able to be resolved. These were serving static assets with an efficient cache policy.                 | Unfortunately no reasonable solution was found and this is a common error when embedding google maps. Without use of custom Javascript code which is beyond the scope of this project.                 |
+### MAJOR COMMIT ISSUE BUG SCREEN SHOTS
+
+#### Total Commits
+
+![Total Commits](documentation/bugs/commit-1.webp)
+
+#### Registered Commits
+
+![Registered Commits](documentation/bugs/commit-2.webp)
+
+| **Bug**                                                                                                                                                                                                                                                 | **Fix**                                                                                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MAJOR BUG: COMMIT ISSUES - building this project was done using local VSCODE and the Live server. Files were then transfered to Gitpod to be pushed to repo. This was to avoid going over 50 hours. Difficulties pushing from local VS-Code. eextension | Bug not fixed. Unknown why all commits were not tracked. From the main screen commits are recorded but not listed on project repo commit total. Perhaps this was due to transfering files from local VS-Code to gitpod for commiting and pushing to repo. |
+| Due to the hero image animation using CSS background url the image was unable to be optimised. This leads to high load times and poor performance.                                                                                                      | Using CSS media queries the hero image was disabled on mobile devices leading to better performance and lighthouse scores.                                                                                                                                |
+| Embedding youtube videos and lead to large delays in performance. Reduce unused JavaScript, Javascript execution times and serving static assets were issues.                                                                                           | Following the tutorial on [Vumbnail](https://vumbnail.com/examples/srcdoc-iframe-for-lighthouse) I was able to drastically reduce performance issues by following the instructional srcdoc html setup.                                                    |
+| Embedding Google Maps meant the certain errors were not able to be resolved. These were serving static assets with an efficient cache policy.                                                                                                           | Unfortunately no reasonable solution was found and this is a common error when embedding google maps. Without use of custom Javascript code which is beyond the scope of this project.                                                                    |
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -598,6 +610,10 @@ You can run this repository locally:
 [Back to Table of Contents](#table-of-contents)
 
 ## Credits
+
+### Copy
+
+All copy on this website was written by Chat GPT. The copy was prompted by myself to give brief descriptions of each god as well as where they lived, thier history and personal attributes.
 
 ### Images
 
