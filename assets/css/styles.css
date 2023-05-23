@@ -410,13 +410,13 @@ section {
 
 .article h4 {
   margin: 0 0.5rem 0.5rem 0.5rem;
-  font-size: medium;
+  font-size: large;
   border-bottom: 1px solid var(--secondary-color);
 }
 
 .article p {
   margin: 0.5rem;
-  font-size: small;
+  font-size: medium;
 }
 
 .article-image {
